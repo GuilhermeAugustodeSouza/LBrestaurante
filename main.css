@@ -9,6 +9,8 @@
     background-size: cover;
     background-attachment: fixed;
 
+
+
 }
 .boxHeader{
     text-align: center;
@@ -24,18 +26,20 @@
 .visaoTexto{
     backdrop-filter: blur(5px);
 text-align: center;
-padding:10px;
+padding:25px;
 font-size: 20px;
+text-shadow: 1px 1px 1px gray;
+cursor:pointer;
 }
 
-.boxMain{
 
-}
 .boxMain div img{
-    width: 50wv;
+    width: 70wv;
     height:50vh;
     border-radius: 5px;
-    margin:5px;
+    box-shadow:2px 5px 10px black;
+    margin:12px;
+    cursor: pointer;
     
 
 }
@@ -44,26 +48,32 @@ font-size: 20px;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
-    padding:10px;
+    padding:20px;
+   
     
     }
     .boxMap{
         text-align: center;
+        width: 100%;
        
     }
     .boxMap iframe{
         border-radius: 5px;
         margin:15px;
         box-shadow: 2px 4px 3px black;
-        width:auto;
+        width:80wv;
         height:40vh;
+        opacity:70%;
     }
-.rodape p{
+.rodape p,a{
     padding: 5px;
-    text-align: center;
     position:relative;
     bottom: 0%;
     width:100%;
     background-color: black;
-    color:white;
+    color:rgb(175, 172, 172);
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+   
 }
