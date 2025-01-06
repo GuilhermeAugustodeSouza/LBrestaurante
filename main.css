@@ -26,11 +26,11 @@
 }
 .visaoTexto{
     backdrop-filter: blur(5px);
-text-align: center;
-padding:25px;
-font-size: 20px;
-text-shadow: 1px 1px 1px gray;
-cursor:pointer;
+    text-align: center;
+    padding:25px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px gray;
+    cursor:pointer;
 }
 
 
@@ -80,7 +80,7 @@ cursor:pointer;
 }
 @media(max-width: 516px){
 .boxMain div img{
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
    
 }
