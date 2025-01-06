@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }   
 .boxWrapped{
+    width:100%;
     background-image: url('./imgs/36061756518223cb2f9397463a79d015.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +35,7 @@ cursor:pointer;
 
 
 .boxMain div img{
-    width: 70wv;
+    width: 60wv;
     height:50vh;
     border-radius: 5px;
     box-shadow:2px 5px 10px black;
@@ -76,4 +77,11 @@ cursor:pointer;
     text-align: center;
     text-decoration: none;
    
+}
+@media(max-width: 516px){
+.boxMain div img{
+    max-width: 200px;
+    height: auto;
+   
+}
 }
