@@ -85,3 +85,6 @@ cursor:pointer;
    
 }
 }
+.animate__animated .animate__heartBeat{
+--animate-duration:20s;
+}
