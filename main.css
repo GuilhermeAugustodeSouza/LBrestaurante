@@ -33,7 +33,6 @@ text-shadow: 1px 1px 1px gray;
 cursor:pointer;
 }
 
-
 .boxMain div img{
     width: 60wv;
     height:50vh;
@@ -78,6 +77,21 @@ cursor:pointer;
     text-decoration: none;
    
 }
+
+ .Whatsapp {
+    z-index: 1000;
+    position: fixed;
+    width:0%;
+ bottom:3%;
+ right:22%;
+ background-color: transparent;
+}
+
+.imgWhatsapp{
+    opacity: 80%;
+    height: 10vh;
+}
+
 @media(max-width: 516px){
 .boxMain div img{
     max-width: 200px;
